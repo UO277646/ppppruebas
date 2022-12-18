@@ -1,0 +1,79 @@
+/************************************
+    Juan Dominguez Alvarez - UO277646
+    Descripcion de los estilos
+************************************/
+/************************************
+    Juan Dominguez Alvarez - UO277646
+    Descripcion de los estilos
+************************************/
+/*Especificidad: 001*/
+body {
+  background-color: rgb(226, 226, 226);
+  color: rgb(3, 2, 2);
+  display: flex;  
+  /*cada auto es el tamaño de la columna */
+  flex-flow: column ;
+  flex:auto;
+
+  }
+/*Especificidad: 001*/
+h1 {
+  grid-column:1/1;
+  background-color: rgb(226, 226, 226);
+  color: rgb(3, 2, 2);    
+  
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;     
+  }
+
+/*Especificidad: 001*/
+h2 {
+  background-color: rgb(226, 226, 226);
+  color: rgb(3, 2, 2); 
+  font-family:Georgia, serif;
+  text-transform: uppercase; 
+  text-align: center;  
+    
+  }
+  
+  
+    /*Especificidad: 001*/
+    p {
+    background-color: rgb(226, 226, 226);
+    color: rgb(3, 2, 2);    
+     
+    font-family:sans-serif;    
+    }
+
+    section {
+      text-align: center;
+      }
+
+    /*Especificidad: 001*/
+    form{
+      display:grid;
+      grid-template-columns:200px;
+      grid-gap:50px;
+      width:100%;
+      margin-left:50px;
+      margin-top:50px;
+      margin-bottom:50px ;
+    }
+
+    /*Especificidad: 001*/
+    form *{
+      
+      border:none;
+    }
+
+    /*Especificidad: 011*/
+    input[type="submit"]{
+      height: 50px;
+      background-color: rgb(29, 28, 28);
+      color: rgb(255, 251, 251); 
+    }
+
+  
+  
+  
